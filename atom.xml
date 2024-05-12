@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Fomalhaut🥝</title>
+  <title>Popayw🍭</title>
   
   
   <link href="https://www.fomal.cc/atom.xml" rel="self"/>
   
   <link href="https://www.fomal.cc/"/>
-  <updated>2022-10-23T14:00:00.000Z</updated>
+  <updated>2024-05-11T11:45:39.739Z</updated>
   <id>https://www.fomal.cc/</id>
   
   <author>
-    <name>Fomalhaut🥝</name>
+    <name>Popayw</name>
     
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://www.fomal.cc/posts/d87f7e0c.html"/>
+    <id>https://www.fomal.cc/posts/d87f7e0c.html</id>
+    <published>2024-05-11T10:03:18.000Z</published>
+    <updated>2024-05-11T11:45:39.739Z</updated>
+    
+    <content type="html"><![CDATA[<span id="more"></span><h1>一级标题</h1><h2 id="二级标题">二级标题</h2><h3 id="三级标题">三级标题</h3><p><strong>这个是粗体</strong></p><p><em>这个是斜体</em></p><p><em><strong>这个是粗体加斜体</strong></em></p><p><s>这里想用删除线</s></p><ul><li><p>无序列表 1</p></li><li><p>无序列表 2</p></li><li><p>无序列表 3</p></li><li><p>无序列表 1</p></li><li><p>无序列表 2</p><ul><li>无序列表 2.1</li><li>无序列表 2.2</li></ul></li></ul><ol><li>有序列表 1</li><li>有序列表 2</li><li>有序列表 3</li></ol><blockquote><p>读一本好书，就是在和高尚的人谈话。 ——歌德</p></blockquote><blockquote><p>雇用制度对工人不利，但工人根本无力摆脱这个制度。 ——阮一峰</p></blockquote><hr><table><thead><tr><th style="text-align:left">姓名</th><th style="text-align:center">年龄</th><th style="text-align:right">工作</th></tr></thead><tbody><tr><td style="text-align:left">小可爱</td><td style="text-align:center">18</td><td style="text-align:right">吃可爱多</td></tr><tr><td style="text-align:left">小小勇敢</td><td style="text-align:center">20</td><td style="text-align:right">爬棵勇敢树</td></tr><tr><td style="text-align:left">小小小机智</td><td style="text-align:center">22</td><td style="text-align:right">看一本机智书</td></tr></tbody></table><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// FileName: HelloWorld.java</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">HelloWorld</span> &#123;</span><br><span class="line">  <span class="comment">// Java 入口程序，程序从此入口</span></span><br><span class="line">  <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">    System.out.println(<span class="string">&quot;Hello,World!&quot;</span>); <span class="comment">// 向控制台打印一条语句</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><img src="https://img2023.cnblogs.com/blog/3051266/202405/3051266-20240511180837296-302698579.png" alt="63850457210138"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;span id=&quot;more&quot;&gt;&lt;/span&gt;
+&lt;h1&gt;一级标题&lt;/h1&gt;
+&lt;h2 id=&quot;二级标题&quot;&gt;二级标题&lt;/h2&gt;
+&lt;h3 id=&quot;三级标题&quot;&gt;三级标题&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;这个是粗体&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;这个是斜体&lt;/em&gt;&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    <category term="cate" scheme="https://www.fomal.cc/categories/cate/"/>
+    
+    
+    <category term="tag" scheme="https://www.fomal.cc/tags/tag/"/>
+    
+  </entry>
   
   <entry>
     <title>Markdown语法与外挂标签写法汇总</title>
