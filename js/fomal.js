@@ -292,7 +292,7 @@ function showWelcome() {
 }
 window.onload = showWelcome;
 // 如果使用了pjax在加上下面这行代码
-//document.addEventListener('pjax:complete', showWelcome);
+document.addEventListener('pjax:complete', showWelcome);
 
 /* 欢迎信息 end */
 
@@ -1122,7 +1122,14 @@ function createtime1() {
     `欢迎来到Popayw🥝の小家!`,
     `Future is now 🍭🍭🍭`,
     `
-                                                      
+______                                       
+| ___ \                                      
+| |_/ /  ___   _ __    __ _  _   _ __      __
+|  __/  / _ \ | '_ \  / _` || | | |\ \ /\ / /
+| |    | (_) || |_) || (_| || |_| | \ V  V / 
+\_|     \___/ | .__/  \__,_| \__, |  \_/\_/  
+              | |             __/ |          
+              |_|            |___/                                                           
 `,
     "小站已经苟活",
     dnum,
