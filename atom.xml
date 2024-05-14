@@ -6,7 +6,7 @@
   <link href="https://www.fomal.cc/atom.xml" rel="self"/>
   
   <link href="https://www.fomal.cc/"/>
-  <updated>2024-05-14T08:00:19.671Z</updated>
+  <updated>2024-05-14T09:24:41.435Z</updated>
   <id>https://www.fomal.cc/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ISCC2024</title>
+    <link href="https://www.fomal.cc/posts/65dfdaa0.html"/>
+    <id>https://www.fomal.cc/posts/65dfdaa0.html</id>
+    <published>2024-05-14T09:22:28.000Z</published>
+    <updated>2024-05-14T09:24:41.435Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.">  <script id="hbeData" type="hbeData" data-hmacdigest="1fd10544d79b7ce0f2fdff594f7b54c907c417ac119a8f5d412fe3edcf0a275b">4630436162ade97ba2718b7d0c4b3b63aa2ab1619d9cdbb4bb5fd57226dc61d2</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-xray">      <input class="hbe hbe-input-field hbe-input-field-xray" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-xray" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-xray">内容还没写完，需要密码才能查看！</span>      </label>      <svg class="hbe hbe-graphic hbe-graphic-xray" width="300%" height="100%" viewBox="0 0 1200 60" preserveAspectRatio="none">        <path d="M0,56.5c0,0,298.666,0,399.333,0C448.336,56.5,513.994,46,597,46c77.327,0,135,10.5,200.999,10.5c95.996,0,402.001,0,402.001,0"></path>        <path d="M0,2.5c0,0,298.666,0,399.333,0C448.336,2.5,513.994,13,597,13c77.327,0,135-10.5,200.999-10.5c95.996,0,402.001,0,402.001,0"></path>      </svg>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">ISCC2024 WP</summary>
+    
+    
+    
+    <category term="Writeup" scheme="https://www.fomal.cc/categories/Writeup/"/>
+    
+    
+    <category term="CTF" scheme="https://www.fomal.cc/tags/CTF/"/>
+    
+    <category term="Competition" scheme="https://www.fomal.cc/tags/Competition/"/>
+    
+    <category term="ISCC" scheme="https://www.fomal.cc/tags/ISCC/"/>
+    
+  </entry>
   
   <entry>
     <title>高校网络安全管理运维赛2024</title>
