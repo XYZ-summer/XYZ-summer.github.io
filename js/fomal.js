@@ -73,7 +73,7 @@ $.ajax({
   type: 'get',
   url: 'https://apis.map.qq.com/ws/location/v1/ip',
   data: {
-    key: 'JVVBZ-SVR6T-N3NX5-L5B7P-D4MAH-JGFRX',  // 这里要写你的KEY!!!
+    key: '22MBZ-S6MCT-XEUXH-VH2AD-47DBF-GMBVS',  // 这里要写你的KEY!!!
     output: 'jsonp',
   },
   dataType: 'jsonp',
@@ -285,7 +285,7 @@ function showWelcome() {
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center>🎉 欢迎信息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color)">${pos}</span> 的小伙伴，${timeChange}您现在距离站长约 <span style="color:var(--theme-color)">${dist}</span> 公里。<br><span style="color:var(--blue-custom)">${posdesc}</span></b>`;
+      `<b><center>🎉 无线电讯息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color); font-size:20px">${pos}</span> 的小伙伴，${timeChange}您现在距离 Popayw 约 <span style="color:var(--theme-color); font-size:20px">${dist}</span> 公里。<br><span style="color:var(--blue-custom); font-size:20px">${posdesc}</span></b>`; 
   } catch (err) {
      //console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
