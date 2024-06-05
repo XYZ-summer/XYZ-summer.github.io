@@ -54,7 +54,7 @@ function tonav() {
     position = scroll;
   });
   //修复没有弄右键菜单的童鞋无法回顶部的问题
-  document.getElementById("page-name").innerText = document.title.split(" | Popayw🥝")[0];
+  document.getElementById("page-name").innerText = document.title.split(" | bananaships🥝")[0];
 }
 
 function scrollToTop() {
@@ -285,7 +285,7 @@ function showWelcome() {
   try {
     //自定义文本和需要放的位置
     document.getElementById("welcome-info").innerHTML =
-      `<b><center style="font-size:25px;">🎉 无线电讯息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color); font-size:20px">${pos}</span> 的小伙伴，${timeChange}您现在距离 Popayw 约 <span style="color:var(--theme-color); font-size:20px">${dist}</span> 公里。<br><span style="color:var(--blue-custom); font-size:20px">${posdesc}</span></b>`; 
+      `<b><center style="font-size:25px;">🎉 无线电讯息 🎉</center>&emsp;&emsp;欢迎来自 <span style="color:var(--theme-color); font-size:20px">${pos}</span> 的小伙伴，${timeChange}您现在距离 bananaships 约 <span style="color:var(--theme-color); font-size:20px">${dist}</span> 公里。<br><span style="color:var(--blue-custom); font-size:20px">${posdesc}</span></b>`; 
   } catch (err) {
      //console.log("Pjax无法获取#welcome-info元素🙄🙄🙄")
   }
@@ -1119,7 +1119,7 @@ function createtime1() {
   var dnum = Math.floor(days);
 
   var ascll = [
-    `欢迎来到Popayw🥝の小家!`,
+    `欢迎来到bananaships🥝の小家!`,
     `Future is now 🍭🍭🍭`,
     `
 ########   #######  ########     ###    ##    ## ##      ## 
@@ -1133,7 +1133,7 @@ function createtime1() {
     "小站已经苟活",
     dnum,
     "天啦!",
-    "©2024 By Popayw",
+    "©2024 By bananaships",
   ];
 
   setTimeout(
@@ -1172,7 +1172,7 @@ function createtime2() {
   setTimeout(
     console.warn.bind(
       console,
-      "%c ⚡ Powered by Popayw🥝 %c 你正在访问Popayw🥝の小家",
+      "%c ⚡ Powered by bananaships🥝 %c 你正在访问bananaships🥝の小家",
       "color:white; background-color:#f0ad4e",
       ""
     )
@@ -1282,8 +1282,8 @@ function share_() {
   try {
     // 截取标题
     var title = document.title;
-    var subTitle = title.endsWith("| Popayw🥝") ? title.substring(0, title.length - 14) : title;
-    navigator.clipboard.writeText('Popayw🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
+    var subTitle = title.endsWith("| bananaships🥝") ? title.substring(0, title.length - 14) : title;
+    navigator.clipboard.writeText('bananaships🥝的站内分享\n标题：' + subTitle + '\n链接：' + url + '\n欢迎来访！🍭🍭🍭');
     new Vue({
       data: function () {
         this.$notify({
