@@ -6,7 +6,7 @@
   <link href="https://bananashipsbbq.github.io/atom.xml" rel="self"/>
   
   <link href="https://bananashipsbbq.github.io/"/>
-  <updated>2024-06-06T10:27:36.866Z</updated>
+  <updated>2024-06-07T12:18:17.926Z</updated>
   <id>https://bananashipsbbq.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>gdb基本使用</title>
+    <link href="https://bananashipsbbq.github.io/posts/629c57a.html"/>
+    <id>https://bananashipsbbq.github.io/posts/629c57a.html</id>
+    <published>2024-06-07T12:15:33.000Z</published>
+    <updated>2024-06-07T12:18:17.926Z</updated>
+    
+    <content type="html"><![CDATA[<h1>gdb基本使用</h1><p>拖欠很久的gdb入门说明笔记，今天写一下，主要脑子不太好使，学一遍就忘，记一下。零零散散写一些，随便打打应该够了。</p><h2 id="一-编译部分">一.编译部分</h2><p>​用gcc编译的时候需要记得给一个<code>-g</code>的参数，不然后面调不了</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607192311447-155938462.png" alt="image-20240607192310589"></p><p>​直接<code>gdb -q test</code>关掉版本信息，OK，gdb启动！</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607192946096-2033504101.png" alt="image-20240607192945947"></p><p>​如果不给<code>-g</code>的参数的话是这样的，没有调试的符号信息，就用不了gdb了，可怕不可怕</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607193136662-1794980088.png" alt="image-20240607193136461"></p><h2 id="二-基本使用">二.基本使用</h2><p>​1.先<code>list</code>一下看看源码，默认显示前几行，回车继续往下看，这边就写了6行的helloworld哈哈哈</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607193324624-1744742507.png" alt="image-20240607193323948"></p><p>​2.<code>r</code>直接运行程序，遇到结束则退出，断点的话就等待下一条命令</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607193602446-56711658.png" alt="image-20240607193602207"></p><p>​3.程序没有断点，给它打个断点试试看，break(简写 b) ：格式 b 行号，在某行设置断点，<code>b 3</code>一下之后直接<code>info breakpoints</code>查看一下断点信息，然后再run一下看看捏</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607194402765-805915283.png" alt="image-20240607194402520"></p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607194434845-1992105708.png" alt="image-20240607194434522"></p><p>​为森莫他们都断在了第四行呢，因为我第三行压根没东西hhh，断点信息各部分如下：</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">break(简写 </span><span class="keyword">b) </span>：格式 <span class="keyword">b </span>行号，在某行设置断点；</span><br><span class="line">info <span class="keyword">breakpoints </span>：显示断点信息</span><br><span class="line">Num： 断点编号</span><br><span class="line"><span class="keyword">Disp：断点执行一次之后是否有效 </span>kep：有效 <span class="keyword">dis：无效</span></span><br><span class="line"><span class="keyword"></span>Enb： 当前断点是否有效 y：有效 n：无效</span><br><span class="line"><span class="keyword">Address：内存地址</span></span><br><span class="line"><span class="keyword"></span>What：位置</span><br></pre></td></tr></table></figure><h2 id="三-断点命令集合">三.断点命令集合</h2><p>run：简记为 r ，其作用是运行程序，当遇到断点后，程序会在断点处停止运行，等待用户输入下一步的命令。<br>continue （简写c ）：继续执行，到下一个断点处（或运行结束，<strong>类似f9</strong>）<br>next：（简写 n），单步跟踪程序，当遇到函数调用时，也不进入此函数体；此命令同 step 的主要区别是，step 遇到用户自定义的函数，将步进到函数中去运行，而 next 则直接调用函数，不会进入到函数体内。(<strong>类似f8</strong>)<br>step （简写s）：单步调试如果有函数调用，则进入函数；与命令n不同，n是不进入调用的函数的(<strong>类似f7</strong>)<br>until：当你厌倦了在一个循环体内单步跟踪时，这个命令可以运行程序直到退出循环体。<br>until+行号： 运行至某行，不仅仅用来跳出循环<br>finish： 运行程序，直到当前函数完成返回，并打印函数返回时的堆栈地址和返回值及参数值等信息。<br>call 函数(参数)：调用程序中可见的函数，并传递“参数”，如：call gdb_test(55)<br>quit：简记为 q ，退出gdb</p><h2 id="四-查看变量">四.查看变量</h2><p>使用print、whatis命令，print打印的为变量中存放的数据，而whatis打印的是该变量的类型，逐渐熟悉动调！</p><p><img src="https://img2023.cnblogs.com/blog/3445027/202406/3445027-20240607201218108-914327734.png" alt="image-20240607201217704"></p>]]></content>
+    
+    
+    <summary type="html">gdb基本使用</summary>
+    
+    
+    
+    <category term="Linux入门" scheme="https://bananashipsbbq.github.io/categories/Linux%E5%85%A5%E9%97%A8/"/>
+    
+    
+    <category term="gdb" scheme="https://bananashipsbbq.github.io/tags/gdb/"/>
+    
+  </entry>
   
   <entry>
     <title>24H&amp;N逆向-WP</title>
