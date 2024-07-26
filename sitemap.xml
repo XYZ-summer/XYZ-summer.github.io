@@ -47,7 +47,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/box/gallery/index.html</loc>
+    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -65,7 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
+    <loc>https://xyz-summer.github.io/box/gallery/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -83,7 +83,25 @@
   </url>
   
   <url>
+    <loc>https://xyz-summer.github.io/personal/love/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xyz-summer.github.io/life/music/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/site/census/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -102,24 +120,6 @@
   
   <url>
     <loc>https://xyz-summer.github.io/personal/bb/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/personal/love/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/site/census/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
