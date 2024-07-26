@@ -11,15 +11,6 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/posts/ee86c83b.html</loc>
-    
-    <lastmod>2024-07-18</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xyz-summer.github.io/posts/937e69c4.html</loc>
     
     <lastmod>2024-07-18</lastmod>
@@ -29,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/posts/cbca032e.html</loc>
+    <loc>https://xyz-summer.github.io/posts/ee86c83b.html</loc>
     
     <lastmod>2024-07-18</lastmod>
     
@@ -39,6 +30,15 @@
   
   <url>
     <loc>https://xyz-summer.github.io/posts/e3f85d4d.html</loc>
+    
+    <lastmod>2024-07-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/posts/cbca032e.html</loc>
     
     <lastmod>2024-07-18</lastmod>
     
@@ -92,7 +92,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/posts/9677dc3d.html</loc>
+    <loc>https://xyz-summer.github.io/posts/db93cbbc.html</loc>
     
     <lastmod>2024-06-06</lastmod>
     
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/posts/db93cbbc.html</loc>
+    <loc>https://xyz-summer.github.io/posts/9677dc3d.html</loc>
     
     <lastmod>2024-06-06</lastmod>
     
@@ -200,7 +200,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
+    <loc>https://xyz-summer.github.io/personal/bb/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -218,34 +218,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/life/music/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/life/movies/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xyz-summer.github.io/personal/about/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/personal/bb/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -263,7 +236,25 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/social/fcircle/index.html</loc>
+    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/life/movies/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/life/music/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -273,6 +264,15 @@
   
   <url>
     <loc>https://xyz-summer.github.io/site/census/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/social/fcircle/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -343,14 +343,14 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/tags/gdb/</loc>
+    <loc>https://xyz-summer.github.io/tags/apk/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/tags/apk/</loc>
+    <loc>https://xyz-summer.github.io/tags/gdb/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -401,14 +401,14 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/categories/Linux%E5%85%A5%E9%97%A8/</loc>
+    <loc>https://xyz-summer.github.io/categories/Android/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/categories/Android/</loc>
+    <loc>https://xyz-summer.github.io/categories/Linux%E5%85%A5%E9%97%A8/</loc>
     <lastmod>2024-07-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
