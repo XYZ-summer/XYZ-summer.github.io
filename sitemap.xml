@@ -2,9 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://xyz-summer.github.io/posts/cc002652.html</loc>
+    
+    <lastmod>2025-08-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://xyz-summer.github.io/posts/b7e144d1.html</loc>
     
-    <lastmod>2025-04-11</lastmod>
+    <lastmod>2025-07-28</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -47,24 +56,6 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/life/music/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://xyz-summer.github.io/tags/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
@@ -74,34 +65,7 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/life/movies/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/site/census/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/site/time/index.html</loc>
-    
-    <lastmod>2024-05-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://xyz-summer.github.io/personal/love/index.html</loc>
+    <loc>https://xyz-summer.github.io/box/nav/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -128,7 +92,52 @@
   </url>
   
   <url>
-    <loc>https://xyz-summer.github.io/box/nav/index.html</loc>
+    <loc>https://xyz-summer.github.io/life/games/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/site/census/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/life/music/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/personal/love/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/life/movies/index.html</loc>
+    
+    <lastmod>2024-05-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://xyz-summer.github.io/site/time/index.html</loc>
     
     <lastmod>2024-05-12</lastmod>
     
@@ -157,15 +166,22 @@
 
   <url>
     <loc>https://xyz-summer.github.io/</loc>
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>https://xyz-summer.github.io/tags/cpu/</loc>
+    <lastmod>2025-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xyz-summer.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -173,8 +189,15 @@
 
   
   <url>
+    <loc>https://xyz-summer.github.io/categories/%E7%A1%AC%E4%BB%B6/</loc>
+    <lastmod>2025-08-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://xyz-summer.github.io/categories/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2025-06-14</lastmod>
+    <lastmod>2025-08-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>cpu温度优化</title>
+      <link href="/posts/cc002652.html"/>
+      <url>/posts/cc002652.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="笔记本cpu温度优化">笔记本cpu温度优化</h2><h3 id="硬件介绍">硬件介绍</h3><ul><li>电脑：机械革命蛟龙16pro2023款</li></ul><img src="/posts/cc002652/p1.png" class=""><p>AMD的cpu运行时温度十分高，开机就能达到最高80℃，风扇声音十分吵，且打字会感到烫手，运行游戏时能达到100℃</p><h3 id="解决方法">解决方法</h3><ul><li>原理：芯片功率与电压成正比（$P ∝ V^2$），与频率成正比（$P ∝ f$），$P=C×V^2×f$</li><li>为确保所有芯片稳定运行，厂商会设置较高默认电压，但多数芯片实际只需更低电压即可维持相同频率</li><li>降低电压后频率会升高，但是运行功率的提升微乎其微，限制频率后可以降低cpu功率，从而降低温度</li></ul><ol><li>降低cpu电压</li></ol><p><img src="2025-07-28-cpu/p1.png" alt="tu"></p><p>tuer<br><img src="p1.png" alt="2"></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 硬件 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cpu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>基础算法</title>
       <link href="/posts/b7e144d1.html"/>
       <url>/posts/b7e144d1.html</url>
